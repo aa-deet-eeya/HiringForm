@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="col-md-6 offset-md-3 mt-5">
+            <h1>Hiring Form</h1>
+            <form accept-charset="UTF-8" action="" method="POST" enctype="multipart/form-data">
+              <div class="form-group">
+                <label for="exampleInputName">Full Name</label>
+                <input type="text" name="fullname" class="form-control" id="exampleInputName" placeholder="Enter your full name" required="required">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1" required="required">Email address</label>
+                <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address">
+              </div>
+              
+              <div class="form-group">
+                <label for="exampleInputName">Position Applied :</label>
+                <select id="Position" class="form-control" required>
+              <option value="">Select Position Applied</option>
+              <option value="full-stack-dev">Full Stack Developer</option>
+              <option value="front-end-dev">Front End Developer</option>
+              <option value="back-end-dev">Back End Developer</option>
+            </select>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName">Qualification</label>
+                <input type="text" name="fullname" class="form-control" id="exampleInputName" placeholder="Your Qualification" required="required">
+              </div>
+              <div class="form-group mt-3">
+                <label class="mr-4">Upload your Resume:</label>
+                <input type="file" name="file">
+              </div>
+              <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+          </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
