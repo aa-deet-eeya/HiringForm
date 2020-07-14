@@ -2,7 +2,7 @@
 
 A simple hiring form following MVC pattern which takes data and stores in MongoDB, also it takes in Resume file and stores locally. 
 
-Note : Resume files come either in .pdf or .docx extensions and rarely in .jpeg or any other image format. Storing such files in MongoDB can give unexpected results since it takes in binary type data and hence data loss can occur. Due to unreliability its recommended to store such files in Google Drive or S3 container.
+Note : Resume files come either in .pdf or .docx extensions and rarely in .jpeg or any other image format. Storing such files in MongoDB can give unexpected results since MongoDB takes in binary type data and hence data loss can occur. Due to unreliability its recommended to store such files in Google Drive or S3 container.
 
 
 ### Getting started 
